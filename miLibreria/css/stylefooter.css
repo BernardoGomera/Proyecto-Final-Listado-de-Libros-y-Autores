@@ -1,0 +1,30 @@
+/* CSS para el footer */
+
+#footer {
+  background-color: #333; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto */
+  position: fixed; /* Fijar el footer en la parte inferior de la ventana */
+  bottom: 0; /* Desde arriba */
+  left: 0; /* Desde la izquierda */
+  width: 100%; /* Ancho completo */
+}
+
+.footer-container {
+  display: flex; /* Mostrar los elementos en una fila */
+  justify-content: space-between; /* Distribuir los elementos de manera uniforme */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.logo-container img {
+  width: 35px; /* Ancho de la imagen del logo */
+  height: 40px; /* Alto de la imagen del logo */
+  margin-right: 10px; /* Espaciado derecho */
+}
+
+/* Estilo para el texto del footer */
+#footer p, #footer h4 {
+  margin: 0; /* Eliminar márgenes */
+  font-size: 14px; /* Tamaño del texto */
+}

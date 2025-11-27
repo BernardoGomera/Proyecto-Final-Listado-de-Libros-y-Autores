@@ -1,0 +1,58 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ef8a8a; /* Color de fondo */
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Tiendas Section */
+  #tiendas-section {
+    padding: 50px 0;
+  }
+  
+  #tiendas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #tiendas-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #tiendas-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Enlace en el footer */
+  .footer-link {
+    color: white;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  

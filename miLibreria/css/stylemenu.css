@@ -1,0 +1,47 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-image: url('assets/img/fondoBliblioteca.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* Para que ocupe toda la altura de la pantalla */
+}
+
+/* Header */
+header {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Carrusel */
+.carousel-item img {
+  max-height: 300px; /* Altura máxima para las imágenes del carrusel */
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  margin: 0;
+  color: white; /* Color del texto en el carrusel */
+}
+
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
