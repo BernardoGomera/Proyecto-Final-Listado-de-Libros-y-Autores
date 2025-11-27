@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 -- 
 -- Servidor: localhost
--- Tiempo de generación: 20-05-2008 a las 05:30:59
--- Versión del servidor: 5.0.18
--- Versión de PHP: 5.1.2
+-- Tiempo de generaciï¿½n: 20-05-2008 a las 05:30:59
+-- Versiï¿½n del servidor: 5.0.18
+-- Versiï¿½n de PHP: 5.1.2
 -- 
 -- Base de datos: `dblibreria`
 -- 
@@ -499,9 +499,22 @@ INSERT INTO `titulos` VALUES ('TC7777', 'Sushi, Anyone?', 'trad_cook', '0877', 1
 -- --------------------------------------------------------
 
 -- 
--- Estructura de tabla para la tabla `ventas`
 -- 
 
+
+-- --------------------------------------------------------
+
+-- Estructura de tabla para la tabla `contacto`
+
+CREATE TABLE `contacto` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `fecha` DATETIME NOT NULL,
+  `correo` VARCHAR(100) NOT NULL,
+  `nombre` VARCHAR(100) NOT NULL,
+  `asunto` VARCHAR(150) NOT NULL,
+  `comentario` TEXT NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 CREATE TABLE `ventas` (
   `id_tienda` varchar(4) NOT NULL,
   `num_orden` varchar(18) NOT NULL,
