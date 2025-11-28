@@ -47,9 +47,14 @@ background-attachment: fixed; background-size: cover;">>
 				</div>
         <br></br>
         <div class="form-group">
-					<label for="nombre">Asunto:</label>
-					<input name="asunto" type="text" class="form-control" id="asunto" placeholder="Asunto">
-				</div>
+          <label for="asunto">Asunto:</label>
+          <input name="asunto" type="text" class="form-control" id="asunto" placeholder="Asunto">
+        </div>
+        <br></br>
+        <div class="form-group">
+          <label for="correo">Correo electrónico:</label>
+          <input name="correo" type="email" class="form-control" id="correo" placeholder="ejemplo@correo.com">
+        </div>
         <br></br>
 				<div class="form-group">
 					<label for="comentario">Comentario:</label>

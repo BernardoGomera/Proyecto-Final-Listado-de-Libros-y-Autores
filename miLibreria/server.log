@@ -1,0 +1,3011 @@
+[Thu Nov 27 22:28:54 2025] PHP 8.3.6 Development Server (http://0.0.0.0:8080) started
+[Thu Nov 27 22:29:14 2025] 127.0.0.1:48980 Accepted
+[Thu Nov 27 22:29:14 2025] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /workspaces/Proyecto-Final-Listado-de-Libros-y-Autores/miLibreria/php/conexion.php:3
+Stack trace:
+#0 /workspaces/Proyecto-Final-Listado-de-Libros-y-Autores/miLibreria/php/conexion.php(3): PDO->__construct()
+#1 /workspaces/Proyecto-Final-Listado-de-Libros-y-Autores/miLibreria/php/guardar_comentario.php(3): require_once('...')
+#2 {main}
+  thrown in /workspaces/Proyecto-Final-Listado-de-Libros-y-Autores/miLibreria/php/conexion.php on line 3
+[Thu Nov 27 22:29:14 2025] 127.0.0.1:48980 [500]: POST /php/guardar_comentario.php - Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /workspaces/Proyecto-Final-Listado-de-Libros-y-Autores/miLibreria/php/conexion.php:3
+Stack trace:
+#0 /workspaces/Proyecto-Final-Listado-de-Libros-y-Autores/miLibreria/php/conexion.php(3): PDO->__construct()
+#1 /workspaces/Proyecto-Final-Listado-de-Libros-y-Autores/miLibreria/php/guardar_comentario.php(3): require_once('...')
+#2 {main}
+  thrown in /workspaces/Proyecto-Final-Listado-de-Libros-y-Autores/miLibreria/php/conexion.php on line 3
+[Thu Nov 27 22:29:14 2025] 127.0.0.1:48980 Closing
+[Thu Nov 27 22:30:20 2025] 127.0.0.1:46908 Accepted
+[Thu Nov 27 22:30:20 2025] Error en la conexión a la base de datos: SQLSTATE[HY000] [1045] Access denied for user 'root'@'172.17.0.1' (using password: NO)
+[Thu Nov 27 22:30:20 2025] 127.0.0.1:46908 [200]: POST /php/guardar_comentario.php
+[Thu Nov 27 22:30:20 2025] 127.0.0.1:46908 Closing
+[Thu Nov 27 22:31:23 2025] 127.0.0.1:35970 Accepted
+[Thu Nov 27 22:31:23 2025] 127.0.0.1:35970 [200]: POST /php/guardar_comentario.php
+[Thu Nov 27 22:31:23 2025] 127.0.0.1:35970 Closing
+[Thu Nov 27 22:34:23 2025] 127.0.0.1:47850 Accepted
+[Thu Nov 27 22:34:23 2025] 127.0.0.1:47850 [200]: GET /
+[Thu Nov 27 22:34:23 2025] 127.0.0.1:47850 Closing
+[Thu Nov 27 22:34:23 2025] 127.0.0.1:47862 Accepted
+[Thu Nov 27 22:34:23 2025] 127.0.0.1:47862 [200]: GET /css/stylemenu.css
+[Thu Nov 27 22:34:23 2025] 127.0.0.1:47862 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47864 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47870 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47886 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47864 [200]: GET /assets/img/mujer-leyendo.jpg
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47870 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47864 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47870 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47894 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47886 [200]: GET /css/stylefooter.css
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47886 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47894 [200]: GET /assets/img/libro-abierto.avif
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47894 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47898 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47912 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47924 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47898 [200]: GET /assets/img/fondoBliblioteca.jpg
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47912 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47924 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47924 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47898 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47912 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47926 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47926 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47926 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47938 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47948 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47964 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47938 [200]: GET /js/main.js
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47938 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47948 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47948 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47972 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47976 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47964 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47964 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47972 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47972 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47976 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47976 Closing
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47986 Accepted
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47986 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:34:24 2025] 127.0.0.1:47986 Closing
+[Thu Nov 27 22:34:25 2025] 127.0.0.1:47990 Accepted
+[Thu Nov 27 22:34:25 2025] 127.0.0.1:47990 [200]: GET /contacto.php
+[Thu Nov 27 22:34:25 2025] 127.0.0.1:47990 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:47998 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48010 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48016 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:47998 [200]: GET /css/stylecontacto.css
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:47998 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48016 [200]: GET /css/stylefooter.css
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48016 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48010 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48010 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48032 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48034 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48036 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48032 [200]: GET /css/style.css
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48034 [404]: GET /img/dswamin.png - No such file or directory
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48034 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48032 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48038 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48052 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48060 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48072 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48080 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48090 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48098 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48036 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48036 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48038 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48038 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48052 [200]: GET /assets/img/cielo1.jpg
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48052 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48060 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48060 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48080 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48072 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48080 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48072 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48098 [200]: GET /js/main.js
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48098 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48090 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48090 Closing
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48110 Accepted
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48110 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:34:26 2025] 127.0.0.1:48110 Closing
+[Thu Nov 27 22:35:32 2025] 127.0.0.1:56490 Accepted
+[Thu Nov 27 22:35:32 2025] 127.0.0.1:56490 [200]: POST /php/guardar_comentario.php
+[Thu Nov 27 22:35:32 2025] 127.0.0.1:56490 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56500 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56500 [200]: GET /contacto.php
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56500 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56510 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56518 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56532 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56540 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56546 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56510 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56510 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56518 [200]: GET /css/stylefooter.css
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56518 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56532 [404]: GET /img/dswamin.png - No such file or directory
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56540 [200]: GET /css/style.css
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56532 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56540 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56546 [200]: GET /css/stylecontacto.css
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56546 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56550 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56550 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56550 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56560 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56560 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56560 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56574 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56588 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56592 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56600 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56610 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56624 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56574 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56574 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56624 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56624 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56610 [200]: GET /js/main.js
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56610 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56588 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56592 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56600 [200]: GET /assets/img/cielo1.jpg
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56592 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56588 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56600 Closing
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56634 Accepted
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56634 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:35:37 2025] 127.0.0.1:56634 Closing
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46114 Accepted
+[Thu Nov 27 22:35:44 2025] PHP Warning:  foreach() argument must be of type array|object, false given in /workspaces/Proyecto-Final-Listado-de-Libros-y-Autores/miLibreria/titulos.php on line 70
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46114 [200]: GET /titulos.php
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46114 Closing
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46122 Accepted
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46130 Accepted
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46122 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46122 Closing
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46138 Accepted
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46152 Accepted
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46166 Accepted
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46130 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46130 Closing
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46166 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46138 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46152 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46138 Closing
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46166 Closing
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46152 Closing
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46180 Accepted
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46186 Accepted
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46188 Accepted
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46202 Accepted
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46204 Accepted
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46208 Accepted
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46180 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46180 Closing
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46186 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46186 Closing
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46188 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46188 Closing
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46208 [200]: GET /js/main.js
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46202 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46204 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46208 Closing
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46202 Closing
+[Thu Nov 27 22:35:44 2025] 127.0.0.1:46204 Closing
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39448 Accepted
+[Thu Nov 27 22:35:54 2025] PHP Warning:  foreach() argument must be of type array|object, false given in /workspaces/Proyecto-Final-Listado-de-Libros-y-Autores/miLibreria/titulos.php on line 70
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39448 [200]: GET /titulos.php
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39448 Closing
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39464 Accepted
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39466 Accepted
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39478 Accepted
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39490 Accepted
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39496 Accepted
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39464 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39464 Closing
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39466 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39466 Closing
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39478 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39478 Closing
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39490 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39490 Closing
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39496 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39496 Closing
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39510 Accepted
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39516 Accepted
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39528 Accepted
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39544 Accepted
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39560 Accepted
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39562 Accepted
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39510 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39510 Closing
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39516 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39516 Closing
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39528 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39528 Closing
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39544 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39544 Closing
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39560 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39560 Closing
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39562 [200]: GET /js/main.js
+[Thu Nov 27 22:35:54 2025] 127.0.0.1:39562 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39566 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39566 [200]: GET /index.php
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39566 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39568 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39578 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39592 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39600 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39612 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39568 [200]: GET /css/stylefooter.css
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39568 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39600 [200]: GET /assets/img/mujer-leyendo.jpg
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39600 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39592 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39592 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39612 [200]: GET /assets/img/libro-abierto.avif
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39612 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39578 [200]: GET /css/stylemenu.css
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39578 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39626 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39634 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39640 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39656 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39658 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39666 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39676 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39634 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39634 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39626 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39626 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39680 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39690 Accepted
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39640 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39640 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39656 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39656 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39658 [200]: GET /assets/img/fondoBliblioteca.jpg
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39666 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39658 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39666 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39690 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39680 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39676 [200]: GET /js/main.js
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39690 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39680 Closing
+[Thu Nov 27 22:35:56 2025] 127.0.0.1:39676 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39700 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39700 [200]: GET /autores.php
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39700 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39712 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39718 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39734 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39738 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39740 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39712 [200]: GET /css/stylefooter.css
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39712 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39718 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39718 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39734 [200]: GET /css/styleautores.css
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39734 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39738 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39738 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39740 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39740 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39746 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39762 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39770 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39778 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39788 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39804 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39812 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39814 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39746 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39746 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39762 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39762 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39770 [200]: GET /js/autores.js
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39770 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39814 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39814 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39812 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39812 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39778 [200]: GET /assets/img/cielo1.jpg
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39788 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39804 [200]: GET /js/main.js
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39778 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39788 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39804 Closing
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39830 Accepted
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39830 [200]: GET /assets/img/escritor.png
+[Thu Nov 27 22:35:59 2025] 127.0.0.1:39830 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46146 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46146 [200]: GET /contacto.php
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46146 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46158 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46162 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46166 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46170 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46162 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46162 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46186 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46158 [200]: GET /css/stylecontacto.css
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46158 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46170 [200]: GET /css/stylefooter.css
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46170 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46166 [200]: GET /css/style.css
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46166 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46186 [404]: GET /img/dswamin.png - No such file or directory
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46186 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46188 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46204 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46212 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46224 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46226 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46242 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46258 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46272 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46288 Accepted
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46204 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46204 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46224 [200]: GET /js/main.js
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46224 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46212 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46212 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46226 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46226 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46188 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46188 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46242 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46242 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46258 [200]: GET /assets/img/cielo1.jpg
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46258 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46272 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46272 Closing
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46288 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:36:30 2025] 127.0.0.1:46288 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59270 Accepted
+[Thu Nov 27 22:36:33 2025] PHP Warning:  foreach() argument must be of type array|object, false given in /workspaces/Proyecto-Final-Listado-de-Libros-y-Autores/miLibreria/tiendas.php on line 49
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59270 [200]: GET /tiendas.php
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59270 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59280 Accepted
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59288 Accepted
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59294 Accepted
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59302 Accepted
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59280 [200]: GET /css/stylefooter.css
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59280 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59310 Accepted
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59288 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59288 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59294 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59294 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59302 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59302 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59310 [200]: GET /css/styletiendas.css
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59310 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59324 Accepted
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59324 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59324 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59336 Accepted
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59350 Accepted
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59356 Accepted
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59372 Accepted
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59380 Accepted
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59388 Accepted
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59336 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59336 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59350 [200]: GET /js/main.js
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59350 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59356 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59356 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59372 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59372 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59388 [200]: GET /js/autores.js
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59388 Closing
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59380 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:36:33 2025] 127.0.0.1:59380 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59404 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59404 [200]: GET /index.php
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59404 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59420 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59428 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59430 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59440 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59452 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59428 [200]: GET /css/stylefooter.css
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59428 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59420 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59420 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59430 [200]: GET /css/stylemenu.css
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59430 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59440 [200]: GET /assets/img/mujer-leyendo.jpg
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59440 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59452 [200]: GET /assets/img/libro-abierto.avif
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59452 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59468 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59472 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59476 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59478 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59492 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59494 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59504 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59468 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59468 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59516 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59524 Accepted
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59472 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59472 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59476 [200]: GET /assets/img/fondoBliblioteca.jpg
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59476 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59478 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59478 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59492 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59492 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59494 [200]: GET /js/main.js
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59494 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59504 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59504 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59516 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59516 Closing
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59524 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:36:40 2025] 127.0.0.1:59524 Closing
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52340 Accepted
+[Thu Nov 27 22:36:43 2025] PHP Warning:  foreach() argument must be of type array|object, false given in /workspaces/Proyecto-Final-Listado-de-Libros-y-Autores/miLibreria/titulos.php on line 70
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52340 [200]: GET /titulos.php
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52340 Closing
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52348 Accepted
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52354 Accepted
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52364 Accepted
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52376 Accepted
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52392 Accepted
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52348 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52348 Closing
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52354 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52354 Closing
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52364 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52364 Closing
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52376 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52376 Closing
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52392 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52392 Closing
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52404 Accepted
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52412 Accepted
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52416 Accepted
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52424 Accepted
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52434 Accepted
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52442 Accepted
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52404 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52404 Closing
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52412 [200]: GET /js/main.js
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52412 Closing
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52416 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52416 Closing
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52424 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52424 Closing
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52442 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52434 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52442 Closing
+[Thu Nov 27 22:36:43 2025] 127.0.0.1:52434 Closing
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41756 Accepted
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41756 [200]: GET /titulos.php
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41756 Closing
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41764 Accepted
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41766 Accepted
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41770 Accepted
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41780 Accepted
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41784 Accepted
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41764 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41764 Closing
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41766 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41766 Closing
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41770 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41770 Closing
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41780 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41780 Closing
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41784 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:37:55 2025] 127.0.0.1:41784 Closing
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41790 Accepted
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41806 Accepted
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41820 Accepted
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41790 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41790 Closing
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41806 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41806 Closing
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41820 [200]: GET /js/main.js
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41820 Closing
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41822 Accepted
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41822 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41822 Closing
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41836 Accepted
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41844 Accepted
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41836 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41836 Closing
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41844 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:37:56 2025] 127.0.0.1:41844 Closing
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45174 Accepted
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45174 [200]: GET /titulos.php
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45174 Closing
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45182 Accepted
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45182 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45182 Closing
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45192 Accepted
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45206 Accepted
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45216 Accepted
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45192 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45206 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45192 Closing
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45206 Closing
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45216 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45216 Closing
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45228 Accepted
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45228 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:45228 Closing
+[Thu Nov 27 22:40:11 2025] 127.0.0.1:52260 Accepted
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52264 Accepted
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52276 Accepted
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52290 Accepted
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52304 Accepted
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52260 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52260 Closing
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52316 Accepted
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52276 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52276 Closing
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52264 [200]: GET /js/main.js
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52264 Closing
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52290 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52290 Closing
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52304 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52304 Closing
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52316 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:40:12 2025] 127.0.0.1:52316 Closing
+[Thu Nov 27 22:42:24 2025] 127.0.0.1:47662 Accepted
+[Thu Nov 27 22:42:24 2025] 127.0.0.1:47662 [200]: GET /titulos.php
+[Thu Nov 27 22:42:24 2025] 127.0.0.1:47662 Closing
+[Thu Nov 27 22:42:24 2025] 127.0.0.1:47674 Accepted
+[Thu Nov 27 22:42:24 2025] 127.0.0.1:47682 Accepted
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47694 Accepted
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47674 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47674 Closing
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47682 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47682 Closing
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47694 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47694 Closing
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47702 Accepted
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47712 Accepted
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47702 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47702 Closing
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47712 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47712 Closing
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47722 Accepted
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47728 Accepted
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47722 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47722 Closing
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47728 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47728 Closing
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47740 Accepted
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47750 Accepted
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47740 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47740 Closing
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47752 Accepted
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47754 Accepted
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47750 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47750 Closing
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47754 [200]: GET /js/main.js
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47752 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47752 Closing
+[Thu Nov 27 22:42:25 2025] 127.0.0.1:47754 Closing
+[Thu Nov 27 22:44:20 2025] 127.0.0.1:52032 Accepted
+[Thu Nov 27 22:44:20 2025] 127.0.0.1:52032 [200]: GET /contacto.php
+[Thu Nov 27 22:44:20 2025] 127.0.0.1:52032 Closing
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46852 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46852 [200]: GET /contacto.php
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46852 Closing
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46860 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46860 [200]: GET /css/stylecontacto.css
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46860 Closing
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46864 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46876 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46890 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46864 [200]: GET /css/stylefooter.css
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46864 Closing
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46892 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46876 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46876 Closing
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46890 [404]: GET /img/dswamin.png - No such file or directory
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46890 Closing
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46892 [200]: GET /css/style.css
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46892 Closing
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46906 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46910 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46920 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46930 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46946 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46906 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46906 Closing
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46910 [200]: GET /js/main.js
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46910 Closing
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46920 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46920 Closing
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46930 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46930 Closing
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46946 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46946 Closing
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46950 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46954 Accepted
+[Thu Nov 27 22:44:25 2025] 127.0.0.1:46968 Accepted
+[Thu Nov 27 22:44:26 2025] 127.0.0.1:46950 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:44:26 2025] 127.0.0.1:46954 [200]: GET /assets/img/cielo1.jpg
+[Thu Nov 27 22:44:26 2025] 127.0.0.1:46950 Closing
+[Thu Nov 27 22:44:26 2025] 127.0.0.1:46954 Closing
+[Thu Nov 27 22:44:26 2025] 127.0.0.1:46968 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:44:26 2025] 127.0.0.1:46968 Closing
+[Thu Nov 27 22:44:26 2025] 127.0.0.1:46984 Accepted
+[Thu Nov 27 22:44:26 2025] 127.0.0.1:46984 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:44:26 2025] 127.0.0.1:46984 Closing
+[Thu Nov 27 22:44:26 2025] 127.0.0.1:46986 Accepted
+[Thu Nov 27 22:44:26 2025] 127.0.0.1:46986 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:44:26 2025] 127.0.0.1:46986 Closing
+[Thu Nov 27 22:44:27 2025] 127.0.0.1:46990 Accepted
+[Thu Nov 27 22:44:27 2025] 127.0.0.1:46990 [200]: GET /titulos.php
+[Thu Nov 27 22:44:27 2025] 127.0.0.1:46990 Closing
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:46994 Accepted
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47000 Accepted
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47010 Accepted
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47014 Accepted
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47016 Accepted
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:46994 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:46994 Closing
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47000 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47000 Closing
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47010 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47010 Closing
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47014 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47014 Closing
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47016 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47016 Closing
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47020 Accepted
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47032 Accepted
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47042 Accepted
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47058 Accepted
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47020 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47020 Closing
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47064 Accepted
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47032 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47032 Closing
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47042 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47042 Closing
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47076 Accepted
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47058 [200]: GET /js/main.js
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47058 Closing
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47076 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47076 Closing
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47064 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:44:28 2025] 127.0.0.1:47064 Closing
+[Thu Nov 27 22:44:39 2025] 127.0.0.1:36362 Accepted
+[Thu Nov 27 22:44:39 2025] 127.0.0.1:36362 [200]: GET /titulos.php
+[Thu Nov 27 22:44:39 2025] 127.0.0.1:36362 Closing
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36368 Accepted
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36380 Accepted
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36394 Accepted
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36402 Accepted
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36404 Accepted
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36368 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36368 Closing
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36402 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36402 Closing
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36380 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36380 Closing
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36394 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36394 Closing
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36404 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36404 Closing
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36418 Accepted
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36418 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36418 Closing
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36426 Accepted
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36428 Accepted
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36444 Accepted
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36450 Accepted
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36452 Accepted
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36426 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36426 Closing
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36428 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36428 Closing
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36444 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36444 Closing
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36450 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36450 Closing
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36452 [200]: GET /js/main.js
+[Thu Nov 27 22:44:40 2025] 127.0.0.1:36452 Closing
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43224 Accepted
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43224 [200]: GET /titulos.php
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43224 Closing
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43234 Accepted
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43236 Accepted
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43234 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43234 Closing
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43242 Accepted
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43236 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43236 Closing
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43244 Accepted
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43256 Accepted
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43242 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43242 Closing
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43256 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43256 Closing
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43244 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:46:55 2025] 127.0.0.1:43244 Closing
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43270 Accepted
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43278 Accepted
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43270 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43270 Closing
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43286 Accepted
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43278 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43278 Closing
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43290 Accepted
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43286 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43286 Closing
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43306 Accepted
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43318 Accepted
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43290 [200]: GET /js/main.js
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43290 Closing
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43306 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43306 Closing
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43318 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:46:56 2025] 127.0.0.1:43318 Closing
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35728 Accepted
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35728 [200]: GET /titulos.php
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35728 Closing
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35734 Accepted
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35740 Accepted
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35750 Accepted
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35734 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35734 Closing
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35740 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35740 Closing
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35750 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35750 Closing
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35752 Accepted
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35752 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35752 Closing
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35756 Accepted
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35756 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:49:22 2025] 127.0.0.1:35756 Closing
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35766 Accepted
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35776 Accepted
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35792 Accepted
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35766 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35766 Closing
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35776 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35792 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35792 Closing
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35776 Closing
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35806 Accepted
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35806 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35806 Closing
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35820 Accepted
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35832 Accepted
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35820 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35820 Closing
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35832 [200]: GET /js/main.js
+[Thu Nov 27 22:49:23 2025] 127.0.0.1:35832 Closing
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38522 Accepted
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38522 [200]: GET /titulos.php
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38522 Closing
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38528 Accepted
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38528 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38528 Closing
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38534 Accepted
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38538 Accepted
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38534 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38534 Closing
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38554 Accepted
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38564 Accepted
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38538 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:52:13 2025] 127.0.0.1:38538 Closing
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38564 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38554 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38564 Closing
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38554 Closing
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38576 Accepted
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38586 Accepted
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38590 Accepted
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38600 Accepted
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38610 Accepted
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38626 Accepted
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38600 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38590 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38576 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38576 Closing
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38586 [200]: GET /js/main.js
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38600 Closing
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38590 Closing
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38586 Closing
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38626 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38626 Closing
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38610 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:52:14 2025] 127.0.0.1:38610 Closing
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44626 Accepted
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44626 [200]: GET /titulos.php
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44626 Closing
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44628 Accepted
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44642 Accepted
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44658 Accepted
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44660 Accepted
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44670 Accepted
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44628 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44628 Closing
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44642 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44642 Closing
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44660 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44660 Closing
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44658 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44658 Closing
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44670 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:52:48 2025] 127.0.0.1:44670 Closing
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44678 Accepted
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44688 Accepted
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44692 Accepted
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44708 Accepted
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44714 Accepted
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44720 Accepted
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44678 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44678 Closing
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44688 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44688 Closing
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44692 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44692 Closing
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44708 [200]: GET /js/main.js
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44708 Closing
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44720 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44714 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44714 Closing
+[Thu Nov 27 22:52:49 2025] 127.0.0.1:44720 Closing
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43136 Accepted
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43136 [200]: GET /titulos.php
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43136 Closing
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43144 Accepted
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43144 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43144 Closing
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43156 Accepted
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43156 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43156 Closing
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43164 Accepted
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43176 Accepted
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43164 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43176 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43176 Closing
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43164 Closing
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43186 Accepted
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43186 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43186 Closing
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43196 Accepted
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43202 Accepted
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43196 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43196 Closing
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43204 Accepted
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43202 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43202 Closing
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43204 [200]: GET /js/main.js
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43204 Closing
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43216 Accepted
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43216 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43216 Closing
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43224 Accepted
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43240 Accepted
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43224 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43224 Closing
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43240 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:54:24 2025] 127.0.0.1:43240 Closing
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39080 Accepted
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39080 [200]: GET /titulos.php
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39080 Closing
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39088 Accepted
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39104 Accepted
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39088 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39088 Closing
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39104 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39104 Closing
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39110 Accepted
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39126 Accepted
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39126 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39126 Closing
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39110 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39110 Closing
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39142 Accepted
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39142 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39142 Closing
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39148 Accepted
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39158 Accepted
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39168 Accepted
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39176 Accepted
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39184 Accepted
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39148 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39148 Closing
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39188 Accepted
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39158 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39158 Closing
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39168 [200]: GET /js/main.js
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39168 Closing
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39176 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39176 Closing
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39184 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39184 Closing
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39188 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:56:34 2025] 127.0.0.1:39188 Closing
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54466 Accepted
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54466 [200]: GET /titulos.php
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54466 Closing
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54480 Accepted
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54480 [200]: GET /css/styleheader.css
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54480 Closing
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54494 Accepted
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54494 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54494 Closing
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54496 Accepted
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54510 Accepted
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54510 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54510 Closing
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54496 [200]: GET /css/styletitulo.css
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54496 Closing
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54520 Accepted
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54520 [200]: GET /js/jquery.min.js
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54520 Closing
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54522 Accepted
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54534 Accepted
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54550 Accepted
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54556 Accepted
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54522 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54534 [200]: GET /js/slick.min.js
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54522 Closing
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54534 Closing
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54572 Accepted
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54550 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54550 Closing
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54556 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54556 Closing
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54572 [200]: GET /js/main.js
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54572 Closing
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54586 Accepted
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54586 [200]: GET /assets/img/logo.png
+[Thu Nov 27 22:58:02 2025] 127.0.0.1:54586 Closing
+[Thu Nov 27 22:59:59 2025] 127.0.0.1:45502 Accepted
+[Thu Nov 27 22:59:59 2025] 127.0.0.1:45502 [200]: GET /titulos.php
+[Thu Nov 27 22:59:59 2025] 127.0.0.1:45502 Closing
+[Thu Nov 27 22:59:59 2025] 127.0.0.1:45504 Accepted
+[Thu Nov 27 22:59:59 2025] 127.0.0.1:45504 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 22:59:59 2025] 127.0.0.1:45504 Closing
+[Thu Nov 27 22:59:59 2025] 127.0.0.1:45520 Accepted
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45520 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45520 Closing
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45530 Accepted
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45542 Accepted
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45546 Accepted
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45530 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45530 Closing
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45542 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45542 Closing
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45546 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45546 Closing
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45550 Accepted
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45550 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45550 Closing
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45552 Accepted
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45556 Accepted
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45570 Accepted
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45552 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45552 Closing
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45556 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45556 Closing
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45570 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45570 Closing
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45580 Accepted
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45584 Accepted
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45580 [200]: GET /js/main.js
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45580 Closing
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45584 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:00:00 2025] 127.0.0.1:45584 Closing
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59244 Accepted
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59244 [200]: GET /titulos.php
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59244 Closing
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59258 Accepted
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59260 Accepted
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59258 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59258 Closing
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59268 Accepted
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59276 Accepted
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59260 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59260 Closing
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59268 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59268 Closing
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59290 Accepted
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59276 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59276 Closing
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59290 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:02:12 2025] 127.0.0.1:59290 Closing
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59296 Accepted
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59312 Accepted
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59328 Accepted
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59296 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59296 Closing
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59340 Accepted
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59312 [200]: GET /js/main.js
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59312 Closing
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59356 Accepted
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59328 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59328 Closing
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59368 Accepted
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59340 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59340 Closing
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59356 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59356 Closing
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59368 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:02:13 2025] 127.0.0.1:59368 Closing
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37782 Accepted
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37782 [200]: GET /titulos.php
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37782 Closing
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37794 Accepted
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37794 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37794 Closing
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37802 Accepted
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37814 Accepted
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37802 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37802 Closing
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37814 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37814 Closing
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37816 Accepted
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37818 Accepted
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37816 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37816 Closing
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37818 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37818 Closing
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37820 Accepted
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37830 Accepted
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37820 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37820 Closing
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37830 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37830 Closing
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37832 Accepted
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37836 Accepted
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37838 Accepted
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37832 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37832 Closing
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37846 Accepted
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37838 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37838 Closing
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37836 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37836 Closing
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37846 [200]: GET /js/main.js
+[Thu Nov 27 23:03:58 2025] 127.0.0.1:37846 Closing
+[Thu Nov 27 23:05:59 2025] 127.0.0.1:45890 Accepted
+[Thu Nov 27 23:05:59 2025] 127.0.0.1:45890 [200]: GET /titulos.php
+[Thu Nov 27 23:05:59 2025] 127.0.0.1:45890 Closing
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45894 Accepted
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45894 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45894 Closing
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45910 Accepted
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45910 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45910 Closing
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45918 Accepted
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45934 Accepted
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45950 Accepted
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45918 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45918 Closing
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45934 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45934 Closing
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45950 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45950 Closing
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45952 Accepted
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45952 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45952 Closing
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45968 Accepted
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45980 Accepted
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45982 Accepted
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45996 Accepted
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:46012 Accepted
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45968 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45968 Closing
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45980 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45980 Closing
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45982 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45982 Closing
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45996 [200]: GET /js/main.js
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:45996 Closing
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:46012 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:06:00 2025] 127.0.0.1:46012 Closing
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33878 Accepted
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33878 [200]: GET /titulos.php
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33878 Closing
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33882 Accepted
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33882 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33882 Closing
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33886 Accepted
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33896 Accepted
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33886 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33886 Closing
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33896 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33896 Closing
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33908 Accepted
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33924 Accepted
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33908 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33908 Closing
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33924 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33924 Closing
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33932 Accepted
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33944 Accepted
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33952 Accepted
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33966 Accepted
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33980 Accepted
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33952 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33952 Closing
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33932 [200]: GET /js/main.js
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33932 Closing
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33944 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33944 Closing
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33980 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33980 Closing
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33966 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33966 Closing
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33990 Accepted
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33990 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:06:08 2025] 127.0.0.1:33990 Closing
+[Thu Nov 27 23:10:54 2025] 127.0.0.1:56996 Accepted
+[Thu Nov 27 23:10:54 2025] 127.0.0.1:56996 [200]: GET /titulos.php
+[Thu Nov 27 23:10:54 2025] 127.0.0.1:56996 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57002 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57012 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57028 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57042 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57002 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57002 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57012 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57012 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57042 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57042 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57028 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57028 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57052 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57058 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57062 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57070 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57078 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57082 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57096 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57058 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57058 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57108 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57052 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57052 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57062 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57062 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57070 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57070 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57078 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57078 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57082 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57082 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57096 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57096 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57108 [200]: GET /js/main.js
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57108 Closing
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57122 Accepted
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57122 [404]: GET /favicon.ico - No such file or directory
+[Thu Nov 27 23:10:55 2025] 127.0.0.1:57122 Closing
+[Thu Nov 27 23:15:03 2025] 127.0.0.1:33428 Accepted
+[Thu Nov 27 23:15:03 2025] 127.0.0.1:33428 [200]: GET /titulos.php
+[Thu Nov 27 23:15:03 2025] 127.0.0.1:33428 Closing
+[Thu Nov 27 23:15:03 2025] 127.0.0.1:33438 Accepted
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33438 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33438 Closing
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33452 Accepted
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33460 Accepted
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33466 Accepted
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33478 Accepted
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33452 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33452 Closing
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33460 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33460 Closing
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33466 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33466 Closing
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33484 Accepted
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33490 Accepted
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33500 Accepted
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33478 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33478 Closing
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33512 Accepted
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33484 [200]: GET /js/main.js
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33484 Closing
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33490 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33490 Closing
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33516 Accepted
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33522 Accepted
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33500 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33500 Closing
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33512 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33512 Closing
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33522 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33522 Closing
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33516 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:15:04 2025] 127.0.0.1:33516 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47510 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47510 [200]: GET /titulos.php
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47510 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47524 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47524 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47524 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47536 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47538 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47538 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47538 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47536 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47536 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47550 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47564 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47550 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47550 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47566 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47572 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47564 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47564 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47588 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47566 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47566 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47598 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47572 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47572 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47614 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47588 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47588 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47616 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47598 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47598 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47614 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47614 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47616 [200]: GET /js/main.js
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:47616 Closing
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:50740 Accepted
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:50740 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:16:51 2025] 127.0.0.1:50740 Closing
+[Thu Nov 27 23:21:15 2025] 127.0.0.1:37178 Accepted
+[Thu Nov 27 23:21:15 2025] 127.0.0.1:37178 [200]: GET /titulos.php
+[Thu Nov 27 23:21:15 2025] 127.0.0.1:37178 Closing
+[Thu Nov 27 23:21:15 2025] 127.0.0.1:37180 Accepted
+[Thu Nov 27 23:21:15 2025] 127.0.0.1:37186 Accepted
+[Thu Nov 27 23:21:15 2025] 127.0.0.1:37200 Accepted
+[Thu Nov 27 23:21:15 2025] 127.0.0.1:37216 Accepted
+[Thu Nov 27 23:21:15 2025] 127.0.0.1:37226 Accepted
+[Thu Nov 27 23:21:15 2025] 127.0.0.1:37228 Accepted
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37180 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37180 Closing
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37200 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37200 Closing
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37186 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37186 Closing
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37216 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37216 Closing
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37226 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37226 Closing
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37228 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37228 Closing
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37234 Accepted
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37234 [200]: GET /js/main.js
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37234 Closing
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37246 Accepted
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37252 Accepted
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37246 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37246 Closing
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37258 Accepted
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37262 Accepted
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37252 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37252 Closing
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37270 Accepted
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37258 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37258 Closing
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37270 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37270 Closing
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37262 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:21:16 2025] 127.0.0.1:37262 Closing
+[Thu Nov 27 23:25:15 2025] 127.0.0.1:44548 Accepted
+[Thu Nov 27 23:25:15 2025] 127.0.0.1:44548 [200]: GET /titulos.php
+[Thu Nov 27 23:25:15 2025] 127.0.0.1:44548 Closing
+[Thu Nov 27 23:25:15 2025] 127.0.0.1:44552 Accepted
+[Thu Nov 27 23:25:15 2025] 127.0.0.1:44552 [200]: GET /js/main.js
+[Thu Nov 27 23:25:15 2025] 127.0.0.1:44552 Closing
+[Thu Nov 27 23:25:15 2025] 127.0.0.1:44568 Accepted
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44578 Accepted
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44568 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44568 Closing
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44586 Accepted
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44590 Accepted
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44578 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44578 Closing
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44600 Accepted
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44602 Accepted
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44586 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44586 Closing
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44606 Accepted
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44590 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44590 Closing
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44610 Accepted
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44600 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44600 Closing
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44626 Accepted
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44640 Accepted
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44602 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44602 Closing
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44610 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44610 Closing
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44606 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44606 Closing
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44626 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44626 Closing
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44640 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:25:16 2025] 127.0.0.1:44640 Closing
+[Thu Nov 27 23:27:06 2025] 127.0.0.1:45488 Accepted
+[Thu Nov 27 23:27:06 2025] 127.0.0.1:45488 [200]: GET /titulos.php
+[Thu Nov 27 23:27:06 2025] 127.0.0.1:45488 Closing
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45496 Accepted
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45496 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45496 Closing
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45504 Accepted
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45512 Accepted
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45516 Accepted
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45520 Accepted
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45536 Accepted
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45504 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45504 Closing
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45548 Accepted
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45552 Accepted
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45512 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45512 Closing
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45566 Accepted
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45516 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45516 Closing
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45520 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45520 Closing
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45572 Accepted
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45582 Accepted
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45536 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45536 Closing
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45548 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45548 Closing
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45552 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45552 Closing
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45566 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45566 Closing
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45572 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45572 Closing
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45582 [200]: GET /js/main.js
+[Thu Nov 27 23:27:07 2025] 127.0.0.1:45582 Closing
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52468 Accepted
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52468 [200]: GET /titulos.php
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52468 Closing
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52476 Accepted
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52476 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52476 Closing
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52484 Accepted
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52486 Accepted
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52494 Accepted
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52506 Accepted
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52512 Accepted
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52528 Accepted
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52484 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52484 Closing
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52536 Accepted
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52552 Accepted
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52558 Accepted
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52574 Accepted
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52486 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52486 Closing
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52494 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52494 Closing
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52506 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52512 [200]: GET /js/main.js
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52506 Closing
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52512 Closing
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52528 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52528 Closing
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52536 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52536 Closing
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52552 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52552 Closing
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52558 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52558 Closing
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52574 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:30:46 2025] 127.0.0.1:52574 Closing
+[Thu Nov 27 23:36:08 2025] 127.0.0.1:41962 Accepted
+[Thu Nov 27 23:36:08 2025] 127.0.0.1:41962 [200]: GET /titulos.php
+[Thu Nov 27 23:36:08 2025] 127.0.0.1:41962 Closing
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:41966 Accepted
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:41966 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:41966 Closing
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:41982 Accepted
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:41982 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:41982 Closing
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:41992 Accepted
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:41996 Accepted
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42006 Accepted
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42018 Accepted
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42020 Accepted
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42036 Accepted
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:41992 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:41992 Closing
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42046 Accepted
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42050 Accepted
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42066 Accepted
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:41996 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:41996 Closing
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42006 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42006 Closing
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42020 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42020 Closing
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42036 [200]: GET /js/main.js
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42036 Closing
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42046 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42046 Closing
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42018 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42066 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42018 Closing
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42066 Closing
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42050 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:36:09 2025] 127.0.0.1:42050 Closing
+[Thu Nov 27 23:38:36 2025] 127.0.0.1:48662 Accepted
+[Thu Nov 27 23:38:36 2025] 127.0.0.1:48662 [200]: GET /titulos.php
+[Thu Nov 27 23:38:36 2025] 127.0.0.1:48662 Closing
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48666 Accepted
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48666 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48666 Closing
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48680 Accepted
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48690 Accepted
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48700 Accepted
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48712 Accepted
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48690 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48690 Closing
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48700 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48700 Closing
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48680 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48680 Closing
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48712 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48712 Closing
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48724 Accepted
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48724 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48724 Closing
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48728 Accepted
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48738 Accepted
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48754 Accepted
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48728 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48728 Closing
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48760 Accepted
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48738 [200]: GET /js/main.js
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48738 Closing
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48754 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48754 Closing
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48764 Accepted
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48760 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48760 Closing
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48764 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:38:37 2025] 127.0.0.1:48764 Closing
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56610 Accepted
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56610 [200]: GET /titulos.php
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56610 Closing
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56616 Accepted
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56616 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56616 Closing
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56624 Accepted
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56630 Accepted
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56624 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56624 Closing
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56630 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56630 Closing
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56634 Accepted
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56634 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56634 Closing
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56636 Accepted
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56650 Accepted
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56656 Accepted
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56666 Accepted
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56682 Accepted
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56690 Accepted
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56636 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56636 Closing
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56650 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56650 Closing
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56698 Accepted
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56656 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56656 Closing
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56666 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56666 Closing
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56682 [200]: GET /js/main.js
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56682 Closing
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56690 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56690 Closing
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56698 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:40:34 2025] 127.0.0.1:56698 Closing
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37030 Accepted
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37030 [200]: GET /titulos.php
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37030 Closing
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37042 Accepted
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37048 Accepted
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37042 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37042 Closing
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37052 Accepted
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37066 Accepted
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37048 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37048 Closing
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37052 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37052 Closing
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37066 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37066 Closing
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37080 Accepted
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37080 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37080 Closing
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37086 Accepted
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37086 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37086 Closing
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37094 Accepted
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37094 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37094 Closing
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37098 Accepted
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37108 Accepted
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37108 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37108 Closing
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37098 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37098 Closing
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37120 Accepted
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37120 [200]: GET /js/main.js
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37120 Closing
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37124 Accepted
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37124 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:41:57 2025] 127.0.0.1:37124 Closing
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35548 Accepted
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35548 [200]: GET /titulos.php
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35548 Closing
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35556 Accepted
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35556 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35556 Closing
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35570 Accepted
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35570 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35570 Closing
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35582 Accepted
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35582 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35582 Closing
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35586 Accepted
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35588 Accepted
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35586 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35586 Closing
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35588 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35588 Closing
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35590 Accepted
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35600 Accepted
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35604 Accepted
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35618 Accepted
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35626 Accepted
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35630 Accepted
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35590 [200]: GET /js/main.js
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35590 Closing
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35600 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35604 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35618 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35626 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35630 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35600 Closing
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35604 Closing
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35618 Closing
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35626 Closing
+[Thu Nov 27 23:42:02 2025] 127.0.0.1:35630 Closing
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47574 Accepted
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47574 [200]: GET /titulos.php
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47574 Closing
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47588 Accepted
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47588 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47588 Closing
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47604 Accepted
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47604 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47604 Closing
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47608 Accepted
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47608 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47608 Closing
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47622 Accepted
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47624 Accepted
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47622 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47622 Closing
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47624 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47624 Closing
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47632 Accepted
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47642 Accepted
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47656 Accepted
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47666 Accepted
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47672 Accepted
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47688 Accepted
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47656 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47656 Closing
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47632 [200]: GET /js/main.js
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47632 Closing
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47642 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47642 Closing
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47666 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47666 Closing
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47672 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47672 Closing
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47688 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:42:15 2025] 127.0.0.1:47688 Closing
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55654 Accepted
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55654 [200]: GET /titulos.php
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55654 Closing
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55666 Accepted
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55680 Accepted
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55684 Accepted
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55666 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55666 Closing
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55684 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55684 Closing
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55680 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55680 Closing
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55688 Accepted
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55704 Accepted
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55688 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55688 Closing
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55704 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55704 Closing
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55710 Accepted
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55718 Accepted
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55724 Accepted
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55732 Accepted
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55748 Accepted
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55718 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55718 Closing
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55710 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55710 Closing
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55750 Accepted
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55724 [200]: GET /js/main.js
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55724 Closing
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55750 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55732 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55748 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55750 Closing
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55732 Closing
+[Thu Nov 27 23:43:00 2025] 127.0.0.1:55748 Closing
+[Thu Nov 27 23:43:08 2025] 127.0.0.1:40348 Accepted
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40348 [200]: GET /titulos.php
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40348 Closing
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40362 Accepted
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40374 Accepted
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40362 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40362 Closing
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40384 Accepted
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40374 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40374 Closing
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40394 Accepted
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40384 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40384 Closing
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40394 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40394 Closing
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40404 Accepted
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40404 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40404 Closing
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40416 Accepted
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40432 Accepted
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40444 Accepted
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40450 Accepted
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40460 Accepted
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40476 Accepted
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40416 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40416 Closing
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40432 [200]: GET /js/main.js
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40432 Closing
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40444 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40444 Closing
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40450 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40450 Closing
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40460 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40460 Closing
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40476 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:43:09 2025] 127.0.0.1:40476 Closing
+[Thu Nov 27 23:44:36 2025] 127.0.0.1:34056 Accepted
+[Thu Nov 27 23:44:36 2025] 127.0.0.1:34056 [200]: GET /titulos.php
+[Thu Nov 27 23:44:36 2025] 127.0.0.1:34056 Closing
+[Thu Nov 27 23:44:36 2025] 127.0.0.1:34064 Accepted
+[Thu Nov 27 23:44:36 2025] 127.0.0.1:34064 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:44:36 2025] 127.0.0.1:34064 Closing
+[Thu Nov 27 23:44:36 2025] 127.0.0.1:34070 Accepted
+[Thu Nov 27 23:44:36 2025] 127.0.0.1:34078 Accepted
+[Thu Nov 27 23:44:36 2025] 127.0.0.1:34070 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:44:36 2025] 127.0.0.1:34070 Closing
+[Thu Nov 27 23:44:36 2025] 127.0.0.1:34078 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:44:36 2025] 127.0.0.1:34078 Closing
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34088 Accepted
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34096 Accepted
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34088 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34088 Closing
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34096 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34096 Closing
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34102 Accepted
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34104 Accepted
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34102 [200]: GET /js/main.js
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34102 Closing
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34104 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34104 Closing
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34116 Accepted
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34118 Accepted
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34120 Accepted
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34134 Accepted
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34118 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34118 Closing
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34120 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34120 Closing
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34116 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34116 Closing
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34134 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:44:37 2025] 127.0.0.1:34134 Closing
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39128 Accepted
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39128 [200]: GET /titulos.php
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39128 Closing
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39144 Accepted
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39146 Accepted
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39144 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39144 Closing
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39150 Accepted
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39146 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39146 Closing
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39166 Accepted
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39150 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39150 Closing
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39168 Accepted
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39166 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39166 Closing
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39168 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39168 Closing
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39170 Accepted
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39184 Accepted
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39186 Accepted
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39190 Accepted
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39200 Accepted
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39214 Accepted
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39170 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39170 Closing
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39184 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39184 Closing
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39190 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39190 Closing
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39214 [200]: GET /js/main.js
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39214 Closing
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39186 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39186 Closing
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39200 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:44:44 2025] 127.0.0.1:39200 Closing
+[Thu Nov 27 23:46:04 2025] 127.0.0.1:59368 Accepted
+[Thu Nov 27 23:46:04 2025] 127.0.0.1:59368 [200]: GET /titulos.php
+[Thu Nov 27 23:46:04 2025] 127.0.0.1:59368 Closing
+[Thu Nov 27 23:46:04 2025] 127.0.0.1:59370 Accepted
+[Thu Nov 27 23:46:04 2025] 127.0.0.1:59382 Accepted
+[Thu Nov 27 23:46:04 2025] 127.0.0.1:59370 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:46:04 2025] 127.0.0.1:59370 Closing
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59382 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59382 Closing
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59390 Accepted
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59406 Accepted
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59390 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59390 Closing
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59406 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59406 Closing
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59412 Accepted
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59412 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59412 Closing
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59422 Accepted
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59422 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59422 Closing
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59428 Accepted
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59440 Accepted
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59448 Accepted
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59428 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59440 [200]: GET /js/main.js
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59428 Closing
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59440 Closing
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59464 Accepted
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59448 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59448 Closing
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59464 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59464 Closing
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59470 Accepted
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59470 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:46:05 2025] 127.0.0.1:59470 Closing
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36686 Accepted
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36686 [200]: GET /titulos.php
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36686 Closing
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36692 Accepted
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36700 Accepted
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36706 Accepted
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36700 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36700 Closing
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36692 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36692 Closing
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36706 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36706 Closing
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36710 Accepted
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36712 Accepted
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36710 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36710 Closing
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36712 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36712 Closing
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36724 Accepted
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36732 Accepted
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36736 Accepted
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36738 Accepted
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36750 Accepted
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36760 Accepted
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36724 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36724 Closing
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36732 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36732 Closing
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36736 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36736 Closing
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36738 [200]: GET /js/main.js
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36738 Closing
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36750 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36750 Closing
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36760 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:46:20 2025] 127.0.0.1:36760 Closing
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48928 Accepted
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48928 [200]: GET /titulos.php
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48928 Closing
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48944 Accepted
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48954 Accepted
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48958 Accepted
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48944 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48944 Closing
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48954 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48954 Closing
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48958 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48958 Closing
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48964 Accepted
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48980 Accepted
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48964 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48964 Closing
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48980 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48980 Closing
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48990 Accepted
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48996 Accepted
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:49004 Accepted
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48990 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48990 Closing
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48996 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:48996 Closing
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:49008 Accepted
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:49004 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:49004 Closing
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:49018 Accepted
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:49008 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:49008 Closing
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:49018 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:49018 Closing
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:49030 Accepted
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:49030 [200]: GET /js/main.js
+[Thu Nov 27 23:47:24 2025] 127.0.0.1:49030 Closing
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60878 Accepted
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60878 [200]: GET /titulos.php
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60878 Closing
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60886 Accepted
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60892 Accepted
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60886 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60886 Closing
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60900 Accepted
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60892 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60892 Closing
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60900 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60900 Closing
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60914 Accepted
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60914 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60914 Closing
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60920 Accepted
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60934 Accepted
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60938 Accepted
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60920 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60920 Closing
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60948 Accepted
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60934 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60934 Closing
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60938 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60938 Closing
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60948 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:48:49 2025] 127.0.0.1:60948 Closing
+[Thu Nov 27 23:48:50 2025] 127.0.0.1:60954 Accepted
+[Thu Nov 27 23:48:50 2025] 127.0.0.1:60970 Accepted
+[Thu Nov 27 23:48:50 2025] 127.0.0.1:60954 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:48:50 2025] 127.0.0.1:60954 Closing
+[Thu Nov 27 23:48:50 2025] 127.0.0.1:60970 [200]: GET /js/main.js
+[Thu Nov 27 23:48:50 2025] 127.0.0.1:60970 Closing
+[Thu Nov 27 23:48:50 2025] 127.0.0.1:60978 Accepted
+[Thu Nov 27 23:48:50 2025] 127.0.0.1:60978 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:48:50 2025] 127.0.0.1:60978 Closing
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49570 Accepted
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49570 [200]: GET /titulos.php
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49570 Closing
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49576 Accepted
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49586 Accepted
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49588 Accepted
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49576 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49576 Closing
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49588 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49588 Closing
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49586 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49586 Closing
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49598 Accepted
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49598 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49598 Closing
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49602 Accepted
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49610 Accepted
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49626 Accepted
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49642 Accepted
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49650 Accepted
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49662 Accepted
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49602 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49602 Closing
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49626 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49626 Closing
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49610 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49610 Closing
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49650 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49650 Closing
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49642 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49642 Closing
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49662 [200]: GET /js/main.js
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49662 Closing
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49678 Accepted
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49678 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:50:03 2025] 127.0.0.1:49678 Closing
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34118 Accepted
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34118 [200]: GET /titulos.php
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34118 Closing
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34126 Accepted
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34128 Accepted
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34134 Accepted
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34146 Accepted
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34154 Accepted
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34126 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34126 Closing
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34128 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34128 Closing
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34134 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34134 Closing
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34154 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34154 Closing
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34146 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34146 Closing
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34166 Accepted
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34178 Accepted
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34166 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34166 Closing
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34178 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34178 Closing
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34188 Accepted
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34190 Accepted
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34202 Accepted
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34218 Accepted
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34188 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34188 Closing
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34190 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34190 Closing
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34202 [200]: GET /js/main.js
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34202 Closing
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34218 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:50:51 2025] 127.0.0.1:34218 Closing
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43642 Accepted
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43642 [200]: GET /titulos.php
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43642 Closing
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43658 Accepted
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43674 Accepted
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43658 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43658 Closing
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43690 Accepted
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43702 Accepted
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43712 Accepted
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43674 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43674 Closing
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43690 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43690 Closing
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43702 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43702 Closing
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43712 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:53:41 2025] 127.0.0.1:43712 Closing
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58354 Accepted
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58366 Accepted
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58376 Accepted
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58386 Accepted
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58388 Accepted
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58354 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58354 Closing
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58366 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58366 Closing
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58400 Accepted
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58376 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58376 Closing
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58386 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58386 Closing
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58388 [200]: GET /js/main.js
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58388 Closing
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58400 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:53:42 2025] 127.0.0.1:58400 Closing
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43652 Accepted
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43652 [200]: GET /titulos.php
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43652 Closing
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43668 Accepted
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43674 Accepted
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43684 Accepted
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43668 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43668 Closing
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43674 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43674 Closing
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43684 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43684 Closing
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43690 Accepted
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43702 Accepted
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43690 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43690 Closing
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43702 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43702 Closing
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43708 Accepted
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43722 Accepted
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43708 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43708 Closing
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43736 Accepted
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43746 Accepted
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43750 Accepted
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43766 Accepted
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43722 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43722 Closing
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43736 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43736 Closing
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43746 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43746 Closing
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43750 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43750 Closing
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43766 [200]: GET /js/main.js
+[Thu Nov 27 23:54:10 2025] 127.0.0.1:43766 Closing
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59532 Accepted
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59532 [200]: GET /titulos.php
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59532 Closing
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59534 Accepted
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59538 Accepted
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59550 Accepted
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59534 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59534 Closing
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59538 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59538 Closing
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59556 Accepted
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59568 Accepted
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59550 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59550 Closing
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59556 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59556 Closing
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59568 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:54:52 2025] 127.0.0.1:59568 Closing
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59582 Accepted
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59590 Accepted
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59602 Accepted
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59606 Accepted
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59616 Accepted
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59628 Accepted
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59582 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59582 Closing
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59590 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59590 Closing
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59616 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59616 Closing
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59602 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59602 Closing
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59606 [200]: GET /js/main.js
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59628 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59606 Closing
+[Thu Nov 27 23:54:53 2025] 127.0.0.1:59628 Closing
+[Thu Nov 27 23:58:44 2025] 127.0.0.1:56832 Accepted
+[Thu Nov 27 23:58:44 2025] 127.0.0.1:56832 [200]: GET /titulos.php
+[Thu Nov 27 23:58:44 2025] 127.0.0.1:56832 Closing
+[Thu Nov 27 23:58:44 2025] 127.0.0.1:56834 Accepted
+[Thu Nov 27 23:58:44 2025] 127.0.0.1:56844 Accepted
+[Thu Nov 27 23:58:44 2025] 127.0.0.1:56858 Accepted
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56834 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56834 Closing
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56844 [200]: GET /css/styletitulo.css
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56844 Closing
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56858 [200]: GET /css/styleheader.css
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56858 Closing
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56868 Accepted
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56874 Accepted
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56868 [200]: GET /js/jquery.min.js
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56868 Closing
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56874 [200]: GET /js/bootstrap.min.js
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56874 Closing
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56876 Accepted
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56886 Accepted
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56876 [200]: GET /js/main.js
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56876 Closing
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56902 Accepted
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56886 [200]: GET /js/nouislider.min.js
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56886 Closing
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56912 Accepted
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56924 Accepted
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56926 Accepted
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56902 [200]: GET /js/slick.min.js
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56902 Closing
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56912 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56912 Closing
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56924 [200]: GET /assets/img/logo.png
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56924 Closing
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56926 [200]: GET /js/jquery.zoom.min.js
+[Thu Nov 27 23:58:45 2025] 127.0.0.1:56926 Closing
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54252 Accepted
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54252 [200]: GET /titulos.php
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54252 Closing
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54266 Accepted
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54266 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54266 Closing
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54280 Accepted
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54294 Accepted
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54280 [200]: GET /css/styletitulo.css
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54280 Closing
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54294 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54294 Closing
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54296 Accepted
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54308 Accepted
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54296 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54296 Closing
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54308 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:05:32 2025] 127.0.0.1:54308 Closing
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54322 Accepted
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54334 Accepted
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54340 Accepted
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54322 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54322 Closing
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54348 Accepted
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54352 Accepted
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54334 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54334 Closing
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54340 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54340 Closing
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54354 Accepted
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54348 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54348 Closing
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54352 [200]: GET /js/main.js
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54352 Closing
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54354 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:05:33 2025] 127.0.0.1:54354 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48044 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48044 [200]: GET /index.php
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48044 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48060 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48072 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48078 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48088 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48060 [200]: GET /css/stylemenu.css
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48060 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48094 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48072 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48072 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48078 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48078 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48088 [200]: GET /assets/img/libro-abierto.avif
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48088 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48094 [200]: GET /assets/img/mujer-leyendo.jpg
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48094 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48108 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48112 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48116 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48124 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48134 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48138 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48152 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48168 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48184 Accepted
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48112 [200]: GET /js/main.js
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48112 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48108 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48108 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48116 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48116 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48124 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48124 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48134 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48134 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48138 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48138 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48184 [200]: GET /assets/img/fondoBliblioteca.jpg
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48184 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48168 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48168 Closing
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48152 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:05:43 2025] 127.0.0.1:48152 Closing
+[Fri Nov 28 00:05:48 2025] 127.0.0.1:48192 Accepted
+[Fri Nov 28 00:05:48 2025] 127.0.0.1:48192 [200]: GET /titulos.php
+[Fri Nov 28 00:05:48 2025] 127.0.0.1:48192 Closing
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48198 Accepted
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48206 Accepted
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48208 Accepted
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48214 Accepted
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48222 Accepted
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48206 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48206 Closing
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48198 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48198 Closing
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48214 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48214 Closing
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48222 [200]: GET /css/styletitulo.css
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48222 Closing
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48208 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48208 Closing
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48230 Accepted
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48246 Accepted
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48258 Accepted
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48262 Accepted
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48276 Accepted
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48288 Accepted
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48230 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48230 Closing
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48246 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48246 Closing
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48258 [200]: GET /js/main.js
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48258 Closing
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48262 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48262 Closing
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48276 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48276 Closing
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48288 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:05:49 2025] 127.0.0.1:48288 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33464 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33464 [200]: GET /autores.php
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33464 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33470 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33484 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33492 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33508 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33514 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33484 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33484 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33492 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33492 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33470 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33470 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33508 [200]: GET /css/styleautores.css
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33508 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33514 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33514 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33530 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33538 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33550 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33562 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33574 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33580 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33596 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33612 Accepted
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33550 [200]: GET /js/main.js
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33550 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33538 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33538 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33530 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33530 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33562 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33562 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33574 [200]: GET /js/autores.js
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33574 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33580 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33580 Closing
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33596 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:05:57 2025] 127.0.0.1:33596 Closing
+[Fri Nov 28 00:05:58 2025] 127.0.0.1:33612 [200]: GET /assets/img/cielo1.jpg
+[Fri Nov 28 00:05:58 2025] 127.0.0.1:33612 Closing
+[Fri Nov 28 00:05:58 2025] 127.0.0.1:33620 Accepted
+[Fri Nov 28 00:05:58 2025] 127.0.0.1:33620 [200]: GET /assets/img/escritor.png
+[Fri Nov 28 00:05:58 2025] 127.0.0.1:33620 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58238 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58238 [200]: GET /tiendas.php
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58238 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58254 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58266 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58280 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58286 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58292 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58254 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58254 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58266 [200]: GET /css/styletiendas.css
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58266 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58280 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58286 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58292 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58280 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58286 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58292 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58298 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58306 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58316 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58326 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58330 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58344 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58358 Accepted
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58306 [200]: GET /js/main.js
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58306 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58298 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58298 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58358 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58358 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58316 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58326 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58330 [200]: GET /js/autores.js
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58344 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58316 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58326 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58330 Closing
+[Fri Nov 28 00:06:10 2025] 127.0.0.1:58344 Closing
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52264 Accepted
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52264 [200]: GET /contacto.php
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52264 Closing
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52274 Accepted
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52290 Accepted
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52300 Accepted
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52304 Accepted
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52306 Accepted
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52274 [200]: GET /css/stylecontacto.css
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52274 Closing
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52290 [404]: GET /img/dswamin.png - No such file or directory
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52290 Closing
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52300 [200]: GET /css/style.css
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52300 Closing
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52306 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52306 Closing
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52304 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:06:16 2025] 127.0.0.1:52304 Closing
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52322 Accepted
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52322 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52322 Closing
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52330 Accepted
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52330 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52330 Closing
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52346 Accepted
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52346 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52346 Closing
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52352 Accepted
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52356 Accepted
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52370 Accepted
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52382 Accepted
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52394 Accepted
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52356 [200]: GET /assets/img/cielo1.jpg
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52356 Closing
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52352 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52352 Closing
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52396 Accepted
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52370 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52370 Closing
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52382 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52382 Closing
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52394 [200]: GET /js/main.js
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52394 Closing
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52396 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:06:17 2025] 127.0.0.1:52396 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52406 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52406 [200]: GET /index.php
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52406 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52418 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52424 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52436 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52448 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52462 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52418 [200]: GET /assets/img/libro-abierto.avif
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52418 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52424 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52424 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52436 [200]: GET /css/stylemenu.css
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52436 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52448 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52448 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52462 [200]: GET /assets/img/mujer-leyendo.jpg
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52462 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52464 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52478 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52478 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52478 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52464 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52464 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52490 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52492 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52506 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52522 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52536 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52550 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52560 Accepted
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52490 [200]: GET /js/main.js
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52492 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52522 [200]: GET /assets/img/fondoBliblioteca.jpg
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52490 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52492 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52522 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52506 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52506 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52536 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52536 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52550 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52550 Closing
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52560 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:06:21 2025] 127.0.0.1:52560 Closing
+[Fri Nov 28 00:06:24 2025] 127.0.0.1:39586 Accepted
+[Fri Nov 28 00:06:24 2025] 127.0.0.1:39586 [200]: GET /index.php
+[Fri Nov 28 00:06:24 2025] 127.0.0.1:39586 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39600 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39608 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39620 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39626 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39628 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39600 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39600 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39620 [200]: GET /assets/img/libro-abierto.avif
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39620 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39608 [200]: GET /css/stylemenu.css
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39608 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39626 [200]: GET /assets/img/mujer-leyendo.jpg
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39626 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39628 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39628 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39630 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39640 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39656 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39662 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39670 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39674 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39676 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39630 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39630 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39690 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39694 Accepted
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39640 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39640 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39662 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39662 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39670 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39670 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39656 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39656 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39676 [200]: GET /js/main.js
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39676 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39674 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39674 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39690 [200]: GET /assets/img/fondoBliblioteca.jpg
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39690 Closing
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39694 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:06:25 2025] 127.0.0.1:39694 Closing
+[Fri Nov 28 00:06:26 2025] 127.0.0.1:39710 Accepted
+[Fri Nov 28 00:06:26 2025] 127.0.0.1:39710 [200]: GET /index.php
+[Fri Nov 28 00:06:26 2025] 127.0.0.1:39710 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39724 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39732 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39744 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39752 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39764 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39732 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39732 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39724 [200]: GET /css/stylemenu.css
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39724 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39744 [200]: GET /assets/img/libro-abierto.avif
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39744 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39752 [200]: GET /assets/img/mujer-leyendo.jpg
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39752 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39764 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39764 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39768 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39784 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39794 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39796 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39812 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39826 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39836 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39848 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39854 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39768 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39768 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39784 [200]: GET /assets/img/fondoBliblioteca.jpg
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39784 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39796 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39796 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39794 [200]: GET /js/main.js
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39794 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39812 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39812 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39826 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39826 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39836 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39836 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39848 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39848 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39854 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39854 Closing
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39860 Accepted
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39860 [200]: GET /titulos.php
+[Fri Nov 28 00:06:27 2025] 127.0.0.1:39860 Closing
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39866 Accepted
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39880 Accepted
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39886 Accepted
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39894 Accepted
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39902 Accepted
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39866 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39866 Closing
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39880 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39880 Closing
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39902 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39886 [200]: GET /css/styletitulo.css
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39894 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39902 Closing
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39886 Closing
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39894 Closing
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39912 Accepted
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39920 Accepted
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39936 Accepted
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39952 Accepted
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39968 Accepted
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39982 Accepted
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39920 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39920 Closing
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39952 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39952 Closing
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39936 [200]: GET /js/main.js
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39936 Closing
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39968 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39968 Closing
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39912 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39912 Closing
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39982 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:06:28 2025] 127.0.0.1:39982 Closing
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47334 Accepted
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47334 [200]: GET /contacto.php
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47334 Closing
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47336 Accepted
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47342 Accepted
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47336 [200]: GET /css/stylecontacto.css
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47336 Closing
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47342 [404]: GET /img/dswamin.png - No such file or directory
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47342 Closing
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47350 Accepted
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47358 Accepted
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47374 Accepted
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47350 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47350 Closing
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47358 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47358 Closing
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47374 [200]: GET /css/style.css
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47374 Closing
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47376 Accepted
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47378 Accepted
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47388 Accepted
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47394 Accepted
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47396 Accepted
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47378 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47378 Closing
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47376 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47376 Closing
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47412 Accepted
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47388 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47388 Closing
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47394 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47394 Closing
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47396 [200]: GET /assets/img/cielo1.jpg
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47396 Closing
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47412 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:07:57 2025] 127.0.0.1:47412 Closing
+[Fri Nov 28 00:07:58 2025] 127.0.0.1:47422 Accepted
+[Fri Nov 28 00:07:58 2025] 127.0.0.1:47428 Accepted
+[Fri Nov 28 00:07:58 2025] 127.0.0.1:47422 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:07:58 2025] 127.0.0.1:47422 Closing
+[Fri Nov 28 00:07:58 2025] 127.0.0.1:47444 Accepted
+[Fri Nov 28 00:07:58 2025] 127.0.0.1:47428 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:07:58 2025] 127.0.0.1:47428 Closing
+[Fri Nov 28 00:07:58 2025] 127.0.0.1:47444 [200]: GET /js/main.js
+[Fri Nov 28 00:07:58 2025] 127.0.0.1:47444 Closing
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55170 Accepted
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55170 [200]: GET /titulos.php
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55170 Closing
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55182 Accepted
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55188 Accepted
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55202 Accepted
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55214 Accepted
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55226 Accepted
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55182 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55182 Closing
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55202 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55202 Closing
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55188 [200]: GET /css/styletitulo.css
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55188 Closing
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55214 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55214 Closing
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55226 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55226 Closing
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55230 Accepted
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55232 Accepted
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55246 Accepted
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55256 Accepted
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55272 Accepted
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55288 Accepted
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55230 [200]: GET /js/main.js
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55230 Closing
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55232 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55232 Closing
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55246 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55246 Closing
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55256 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55256 Closing
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55272 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55272 Closing
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55288 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:08:04 2025] 127.0.0.1:55288 Closing
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55302 Accepted
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55302 [200]: GET /autores.php
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55302 Closing
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55314 Accepted
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55318 Accepted
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55324 Accepted
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55314 [200]: GET /css/styleautores.css
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55314 Closing
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55332 Accepted
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55318 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55318 Closing
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55340 Accepted
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55324 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55324 Closing
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55332 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55332 Closing
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55340 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:08:06 2025] 127.0.0.1:55340 Closing
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55344 Accepted
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55346 Accepted
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55362 Accepted
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55370 Accepted
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55384 Accepted
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55392 Accepted
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55406 Accepted
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55414 Accepted
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55344 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55344 Closing
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55346 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55346 Closing
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55370 [200]: GET /assets/img/cielo1.jpg
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55370 Closing
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55362 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55362 Closing
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55406 [200]: GET /js/autores.js
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55406 Closing
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55392 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55392 Closing
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55414 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55414 Closing
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55384 [200]: GET /js/main.js
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55384 Closing
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55418 Accepted
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55418 [200]: GET /assets/img/escritor.png
+[Fri Nov 28 00:08:07 2025] 127.0.0.1:55418 Closing
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36092 Accepted
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36092 [200]: GET /titulos.php
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36092 Closing
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36098 Accepted
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36110 Accepted
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36112 Accepted
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36114 Accepted
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36126 Accepted
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36110 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36110 Closing
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36098 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36098 Closing
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36114 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36114 Closing
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36112 [200]: GET /css/styletitulo.css
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36112 Closing
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36126 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36126 Closing
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36138 Accepted
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36148 Accepted
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36150 Accepted
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36138 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36138 Closing
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36148 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36148 Closing
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36150 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36150 Closing
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36156 Accepted
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36162 Accepted
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36164 Accepted
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36156 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36156 Closing
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36162 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36162 Closing
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36164 [200]: GET /js/main.js
+[Fri Nov 28 00:08:15 2025] 127.0.0.1:36164 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54314 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54314 [200]: GET /index.php
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54314 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54326 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54332 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54340 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54354 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54364 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54326 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54326 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54354 [200]: GET /css/stylemenu.css
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54354 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54340 [200]: GET /assets/img/mujer-leyendo.jpg
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54340 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54332 [200]: GET /assets/img/libro-abierto.avif
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54332 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54364 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54364 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54378 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54378 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54378 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54390 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54394 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54398 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54404 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54414 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54430 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54436 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54440 Accepted
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54390 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54390 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54394 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54394 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54398 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54398 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54404 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54404 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54414 [200]: GET /js/main.js
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54414 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54430 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54430 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54436 [200]: GET /assets/img/fondoBliblioteca.jpg
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54436 Closing
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54440 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:08:34 2025] 127.0.0.1:54440 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35946 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35946 [200]: GET /index.php
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35946 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35960 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35972 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35982 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35996 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36000 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35960 [200]: GET /css/stylemenu.css
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35960 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35982 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35982 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35996 [200]: GET /assets/img/mujer-leyendo.jpg
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35996 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35972 [200]: GET /assets/img/libro-abierto.avif
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:35972 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36000 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36000 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36012 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36016 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36020 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36026 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36034 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36040 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36056 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36066 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36078 Accepted
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36012 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36012 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36016 [200]: GET /assets/img/fondoBliblioteca.jpg
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36016 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36020 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36020 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36026 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36026 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36034 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36034 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36040 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36040 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36056 [200]: GET /js/main.js
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36056 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36066 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36066 Closing
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36078 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:09:30 2025] 127.0.0.1:36078 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46570 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46570 [200]: GET /index.php
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46570 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46584 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46594 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46606 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46614 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46618 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46584 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46584 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46606 [200]: GET /assets/img/mujer-leyendo.jpg
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46614 [200]: GET /assets/img/libro-abierto.avif
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46606 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46614 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46594 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46594 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46618 [200]: GET /css/stylemenu.css
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46618 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46620 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46622 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46636 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46640 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46642 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46654 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46620 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46660 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46676 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46684 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46620 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46640 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46640 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46636 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46636 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46622 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46622 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46642 [200]: GET /js/main.js
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46654 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46660 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46676 [200]: GET /assets/img/fondoBliblioteca.jpg
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46660 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46642 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46654 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46676 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46684 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46684 Closing
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46686 Accepted
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46686 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:09:56 2025] 127.0.0.1:46686 Closing
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36092 Accepted
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36092 [200]: GET /titulos.php
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36092 Closing
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36098 Accepted
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36110 Accepted
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36112 Accepted
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36122 Accepted
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36134 Accepted
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36098 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36098 Closing
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36110 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36110 Closing
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36112 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36112 Closing
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36134 [200]: GET /css/styletitulo.css
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36134 Closing
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36122 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36122 Closing
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36146 Accepted
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36146 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36146 Closing
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36160 Accepted
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36170 Accepted
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36184 Accepted
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36194 Accepted
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36208 Accepted
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36160 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36160 Closing
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36170 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36170 Closing
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36184 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36184 Closing
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36194 [200]: GET /js/main.js
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36194 Closing
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36208 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:10:09 2025] 127.0.0.1:36208 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50328 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50328 [200]: GET /contacto.php
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50328 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50338 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50354 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50356 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50354 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50354 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50364 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50338 [200]: GET /css/stylecontacto.css
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50338 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50366 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50356 [200]: GET /css/stylefooter.css
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50356 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50364 [200]: GET /css/style.css
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50364 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50366 [404]: GET /img/dswamin.png - No such file or directory
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50366 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50376 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50384 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50398 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50404 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50376 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50376 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50410 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50414 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50426 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50438 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50384 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50384 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50444 Accepted
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50398 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50398 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50404 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50404 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50410 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50410 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50414 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50414 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50426 [200]: GET /js/main.js
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50426 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50438 [200]: GET /assets/img/cielo1.jpg
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50438 Closing
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50444 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:10:18 2025] 127.0.0.1:50444 Closing
+[Fri Nov 28 00:10:37 2025] 127.0.0.1:43388 Accepted
+[Fri Nov 28 00:10:37 2025] 127.0.0.1:43388 [200]: GET /titulos.php
+[Fri Nov 28 00:10:37 2025] 127.0.0.1:43388 Closing
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43394 Accepted
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43404 Accepted
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43406 Accepted
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43394 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43394 Closing
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43422 Accepted
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43404 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43404 Closing
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43424 Accepted
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43406 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43406 Closing
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43422 [200]: GET /css/styletitulo.css
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43422 Closing
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43424 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43424 Closing
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43432 Accepted
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43438 Accepted
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43442 Accepted
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43450 Accepted
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43432 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43432 Closing
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43454 Accepted
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43438 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43438 Closing
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43462 Accepted
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43442 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43442 Closing
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43450 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43450 Closing
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43454 [200]: GET /js/main.js
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43454 Closing
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43462 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:10:38 2025] 127.0.0.1:43462 Closing
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:35958 Accepted
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:35958 [200]: GET /titulos.php
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:35958 Closing
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:35974 Accepted
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:35982 Accepted
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:35998 Accepted
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:35974 [200]: GET /css/styletitulo.css
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:35974 Closing
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:35982 [404]: GET /ccs/stylefooter.css - No such file or directory
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:35982 Closing
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:35998 [200]: GET /css/styleheader.css
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:35998 Closing
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:36014 Accepted
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:36014 [200]: GET /js/jquery.min.js
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:36014 Closing
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:36026 Accepted
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:36026 [200]: GET /js/bootstrap.min.js
+[Fri Nov 28 00:19:52 2025] 127.0.0.1:36026 Closing
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36032 Accepted
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36044 Accepted
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36032 [200]: GET /js/nouislider.min.js
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36032 Closing
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36056 Accepted
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36044 [200]: GET /js/slick.min.js
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36044 Closing
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36056 [200]: GET /js/jquery.zoom.min.js
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36056 Closing
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36068 Accepted
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36068 [404]: GET /assets/img/logobeato.png - No such file or directory
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36068 Closing
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36070 Accepted
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36078 Accepted
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36070 [200]: GET /assets/img/logo.png
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36070 Closing
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36078 [200]: GET /js/main.js
+[Fri Nov 28 00:19:53 2025] 127.0.0.1:36078 Closing

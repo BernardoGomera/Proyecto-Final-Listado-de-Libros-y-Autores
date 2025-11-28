@@ -1,0 +1,1 @@
+{"fecha":"2025-11-27 22:30:20","correo":"","nombre":"","asunto":"","comentario":"","error":"SQLSTATE[HY000] [1045] Access denied for user &#039;root&#039;@&#039;172.17.0.1&#039; (using password: NO)"}

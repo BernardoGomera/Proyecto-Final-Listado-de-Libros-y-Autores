@@ -38,3 +38,69 @@
     background-color: #495057; /* Gris más oscuro */
     border-color: #495057; /* Gris más oscuro */
 }
+
+/* Estilos para la cita hero (diseño C: overlay compacto) */
+.hero-quote {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem;
+    pointer-events: none; /* evita interferir con controles del carrusel */
+    z-index: 5;
+}
+.hero-quote .quote-wrapper{
+    display: inline-block;
+    max-width: 1000px;
+    padding: 0.3rem 0.6rem;
+    text-align: center;
+    background: transparent; /* transparencia total para mostrar la imagen */
+    border-radius: 6px;
+    pointer-events: auto;
+}
+.hero-quote h1{
+    font-family: 'Lora', serif;
+    font-size: 2.1rem;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.7); /* sombra para legibilidad */
+}
+.hero-quote .quote-wrapper{box-shadow: 0 8px 20px rgba(0,0,0,0.18);border:1px solid rgba(255,255,255,0.03)}
+.hero-quote .author{
+    margin-top: 0.45rem;
+    color: #f1f1f1;
+    font-size: 0.95rem;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+@media (max-width: 768px){
+    .hero-quote h1{font-size:1.2rem}
+    .hero-quote .quote-wrapper{padding:0.5rem 0.75rem}
+}
+
+/* Asegurar que el overlay se posicione relativo al item del carrusel */
+.carousel-item{position:relative;overflow:hidden}
+
+/* Controlar las imágenes del carrusel para evitar estirado y colocar por debajo */
+.carousel-item .carousel-img,
+.carousel-item img{width:100%;height:auto;max-height:80vh;object-fit:contain;display:block;z-index:0}
+
+@media (max-width: 768px){
+    .carousel-item .carousel-img, .carousel-item img{max-height:60vh}
+}
+
+/* Hacer la imagen del segundo slide (mujer-leyendo.jpg) más grande visualmente */
+.carousel-inner .carousel-item:nth-child(2) .carousel-img,
+.carousel-inner .carousel-item:nth-child(2) img{
+    max-height:95vh;
+}
+
+@media (max-width: 768px){
+    .carousel-inner .carousel-item:nth-child(2) .carousel-img,
+    .carousel-inner .carousel-item:nth-child(2) img{
+        max-height:80vh;
+    }
+}

@@ -2,48 +2,148 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #fff;
+  /* Cards de libros - altura uniforme y alineación */
+  .libro-card {
+    background: linear-gradient(135deg, #f8fafc 80%, #e0e7ff 100%);
+    border-radius: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    color: #222;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 220px;
+    height: 100%;
   }
-  
-  .bg-dark {
-    background-color: #333 !important;
+  .libro-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(60,60,180,0.18);
+    background: linear-gradient(135deg, #e0e7ff 80%, #f8fafc 100%);
   }
-  
-  .btn-outline-light {
-    border-color: #fff;
-    color: #fff;
+  .libro-card .card-title {
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #2d3a4a;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  
-  .btn-outline-light:hover {
-    border-color: #ccc;
-    color: #ccc;
-  }
-  
-  /* Navbar Styles */
-  .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-  }
-  
+  .ver-mas-btn {
   .navbar-dark .navbar-nav .nav-link:hover {
     color: #ccc;
   }
   
   /* Blog Posts */
-  .card-img {
-    object-fit: cover;
-    height: 200px;
-  }
-  
-  .card-title {
-    margin-bottom: 0.5rem;
-  }
-  
-  .card-text {
-    color: #ccc;
-  }
-  
-  .card-footer {
+  /* Cards de libros */
+  .libro-card {
+    background: linear-gradient(135deg, #f8fafc 80%, #e0e7ff 100%);
+    border-radius: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    color: #222;
+    border: none;
     display: flex;
-    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(60,60,180,0.18);
+    background: linear-gradient(135deg, #e0e7ff 80%, #f8fafc 100%);
+  }
+  .libro-card .card-title {
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #2d3a4a;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  .ver-mas-btn {
+    background: #6366f1;
+    color: #fff;
+    border-radius: 2rem;
+    border: none;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(99,102,241,0.12);
+  }
+  .ver-mas-btn:hover {
+    background: #4338ca;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(99,102,241,0.18);
+  }
+  .row-cols-md-3 > .col {
+    display: flex;
+    align-items: stretch;
+  }
+  body {
+    min-height: 100vh;
+    color: #f3f3f3;
+    background: linear-gradient(120deg, #232946 0%, #6366f1 100%);
+    position: relative;
+    overflow-x: hidden;
+    /* Fondo animado tipo librería */
+    background-image:
+      repeating-linear-gradient(90deg, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 2px, transparent 2px, transparent 60px),
+      linear-gradient(120deg, #232946 0%, #6366f1 100%);
+    animation: fondoLibreria 12s ease-in-out infinite alternate;
+}
+
+@keyframes fondoLibreria {
+  0% { background-position: 0 0, 0 0; }
+  100% { background-position: 60px 40px, 0 0; }
+}
+
+/* Estantes decorativos tipo librería */
+.estante-libreria {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 80px;
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, #6366f1 10%, #232946 90%);
+  box-shadow: 0 -8px 32px 0 rgba(40,40,70,0.25);
+}
+.libros-svg {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  z-index: 1;
+  pointer-events: none;
+}
+  }
+
+  /* Fondo decorativo animado */
+  .titulo-bg-wave {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 320px;
+    z-index: 0;
+    pointer-events: none;
+  }
+  .titulo-bg-blob {
+    position: fixed;
+    bottom: -80px;
+    right: -120px;
+    width: 340px;
+    height: 340px;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.7;
+    filter: blur(2px);
+    animation: blobMove 12s ease-in-out infinite alternate;
+  }
+  @keyframes blobMove {
+    0% { transform: scale(1) translateY(0); }
+    100% { transform: scale(1.08) translateY(-30px); }
   }
   
  
