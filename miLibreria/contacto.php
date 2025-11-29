@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/contacto_moderno.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mimir's Eye</title>
@@ -25,9 +26,7 @@
 
 </head>
   
-<body style="opacity: 75; background-image: url('assets/img/cielo1.jpg'); width: 100%;
-height: auto; background-repeat: no-repeat;background-position: center;
-background-attachment: fixed; background-size: cover;">>  
+<body>
 <br></br>
 
 <!-- Header-->
@@ -36,43 +35,37 @@ background-attachment: fixed; background-size: cover;">>
 		?>
 
 <!-- SECTION -->
-<div class="container">
-<br></br>
-           <h1>Su opinión es importante</h1>
-           <br></br>
-			<form action="php/guardar_comentario.php" method="post">
-				<div class="form-group">
-					<label for="nombre">Su nombre:</label>
-					<input name="nombre" type="text" class="form-control" id="nombre" placeholder="Su nombre">
-				</div>
-        <br></br>
-        <div class="form-group">
-          <label for="asunto">Asunto:</label>
-          <input name="asunto" type="text" class="form-control" id="asunto" placeholder="Asunto">
-        </div>
-        <br></br>
-        <div class="form-group">
-          <label for="correo">Correo electrónico:</label>
-          <input name="correo" type="email" class="form-control" id="correo" placeholder="ejemplo@correo.com">
-        </div>
-        <br></br>
-				<div class="form-group">
-					<label for="comentario">Comentario:</label>
-					<textarea name="comentario" class="form-control" id="comentario" rows="6"></textarea>
-				</div>
-        <br></br>
-				<div class="form-group">
-					<input name="guardar" class="btn btn-primary" type="submit" value="Enviar">
-				</div>
-        <br></br>
-			</form>
-</div>
+<section class="contacto-section">
+  <img src="assets/img/logo.png" alt="Contacto" class="contacto-icono">
+  <h1>Contáctanos</h1>
+  <form action="php/guardar_comentario.php" method="post">
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input name="nombre" type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+    </div>
+    <div class="mb-3">
+      <label for="asunto" class="form-label">Asunto</label>
+      <input name="asunto" type="text" class="form-control" id="asunto" placeholder="Asunto" required>
+    </div>
+    <div class="mb-3">
+      <label for="correo" class="form-label">Correo electrónico</label>
+      <input name="correo" type="email" class="form-control" id="correo" placeholder="ejemplo@correo.com" required>
+    </div>
+    <div class="mb-3">
+      <label for="comentario" class="form-label">Comentario</label>
+      <textarea name="comentario" class="form-control" id="comentario" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    </div>
+    <div class="d-grid gap-2">
+      <button type="submit" name="guardar" class="btn btn-primary">Enviar</button>
+    </div>
+  </form>
+</section>
     <!-- SECTION -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <div class="contenedor_img col-md-auto">
-                <img class="img-fluid imagenPrincipallibros" src="./img/dswamin.png" alt="">
+<!-- Imagen decorativa eliminada para diseño más limpio -->
             </div>
     </main>
     </div>

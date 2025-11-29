@@ -1,0 +1,72 @@
+/* index_moderno.css - Estilo moderno para la página de inicio */
+body {
+  font-family: 'Lora', 'Raleway', serif;
+  background: linear-gradient(120deg, #fceabb 0%, #f8b500 100%);
+  min-height: 100vh;
+  margin: 0;
+  position: relative;
+}
+.hero-quote {
+  background: rgba(255,255,255,0.85);
+  border-radius: 2rem;
+  box-shadow: 0 8px 32px rgba(99,102,241,0.10);
+  padding: 2rem 2rem 1.5rem 2rem;
+  margin-bottom: 2rem;
+  color: #6366f1;
+}
+.hero-quote h1, .hero-quote h2 {
+  color: #f8b500;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.hero-quote .author {
+  color: #6366f1;
+  font-size: 1.1rem;
+}
+.carousel-img {
+  border-radius: 2rem;
+  box-shadow: 0 4px 24px rgba(99,102,241,0.10);
+  max-height: 420px;
+  object-fit: cover;
+}
+/* Figuras decorativas para el fondo */
+.fondo-circulo {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.18);
+  box-shadow: 0 8px 32px rgba(99,102,241,0.10);
+  z-index: 0;
+}
+.fondo-circulo.circulo-1 {
+  width: 180px;
+  height: 180px;
+  top: 40px;
+  left: 40px;
+}
+.fondo-circulo.circulo-2 {
+  width: 120px;
+  height: 120px;
+  bottom: 60px;
+  right: 60px;
+}
+.fondo-onda {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 120px;
+  background: linear-gradient(90deg, #f8b500 0%, #fceabb 100%);
+  border-radius: 0 0 60px 60px;
+  opacity: 0.15;
+  z-index: 0;
+}
+@media (max-width: 600px) {
+  .hero-quote {
+    padding: 1.2rem 0.5rem 1rem 0.5rem;
+    border-radius: 1rem;
+  }
+  .carousel-img {
+    border-radius: 1rem;
+    max-height: 220px;
+  }
+}

@@ -1,0 +1,49 @@
+body {
+  font-family: 'Raleway', 'Lora', serif;
+}
+.tiendas-fondo {
+  background: linear-gradient(120deg, #f8fafc 60%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+.titulo-tiendas {
+  color: #6366f1;
+  letter-spacing: 2px;
+}
+
+.tienda-card {
+  border-radius: 1.2rem;
+  border: 2px solid #e5e7eb;
+  background: #fff;
+  box-shadow: 0 8px 32px rgba(99,102,241,0.18);
+  transition: box-shadow 0.2s, border 0.2s, transform 0.2s;
+}
+.tienda-card:hover {
+  box-shadow: 0 16px 48px rgba(99,102,241,0.22);
+  transform: translateY(-6px) scale(1.05);
+  border-color: #6366f1;
+}
+.card-title {
+  color: #f8b500;
+  font-size: 1.22rem;
+  font-weight: bold;
+  text-shadow: 0 2px 8px rgba(99,102,241,0.10);
+}
+.fa-store {
+  color: #6366f1;
+  text-shadow: 0 2px 8px rgba(99,102,241,0.10);
+}
+.fa-map-marker-alt {
+  margin-right: 6px;
+}
+.list-unstyled li {
+  font-size: 1rem;
+  color: #6b7280;
+}
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1rem;
+  }
+  .tienda-card {
+    padding: 0.5rem;
+  }
+}

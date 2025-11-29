@@ -28,25 +28,18 @@ var autores = [
 // Función para crear el HTML de un autor
 function createAutorHTML(autor) {
   return `
- <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
-        <div class="card w-100 my-2 shadow-2-strong">
-          <img src="assets/img/escritor.png" class="card-img-top" style="aspect-ratio: 1 / 1" class="autor-card" />
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title text-center"><strong>Autor: </strong>${autor.nombre}</h5>
-            <p class="mt-2"><strong>Ubicación: </strong>${autor.ubicacion}</p>
-          </div>
-        </div>
-      </div>
-      <br></br>
+    <div class="autor-card">
+      <img src="assets/img/escritor.png" alt="Autor" />
+      <h5>${autor.nombre}</h5>
+      <p>${autor.ubicacion}</p>
+    </div>
   `;
 }
 
 // Función para añadir autores al contenedor
 function addAutoresToContainer(autores) {
   var autoresContainer = document.getElementById("autores-container");
-  autores.forEach(function(autor) {
-    autoresContainer.innerHTML += createAutorHTML(autor);
-  });
+  autoresContainer.innerHTML = autores.map(createAutorHTML).join('');
 }
 
 // Añadir autores al cargar la página

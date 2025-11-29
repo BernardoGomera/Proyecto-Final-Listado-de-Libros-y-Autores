@@ -1,72 +1,60 @@
-<?php include 'php/conexion.php'?>
+
+<?php include 'php/conexion.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mimir's Eye</title>
-  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styletiendas.css">
+  <title>Tiendas | Books Store</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tiendas_moderno.css">
   <link rel="stylesheet" href="css/styleheader.css">
   <link rel="stylesheet" href="css/stylefooter.css">
   <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
-<!-- CSS de Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- jQuery (necesario para algunas funciones de Bootstrap) -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<!-- Popper.js (necesario para algunos componentes de Bootstrap que requieren tooltips y popovers) -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-  
-<body style="opacity: 75; background-color:#d1bdbd; margin: 0; z-index: 0;height: auto;width: 100%;">  
-<br></br>
+<body class="bg-light">
+  <?php include("php/header.php"); ?>
 
-<!-- Header-->
-   <?php
-			include ("php/header.php");
-		?>
+  <section class="py-5 tiendas-fondo">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col text-center">
+          <img src="assets/img/logo.png" alt="Logo" width="50" class="mb-2">
+          <h1 class="display-5 fw-bold titulo-tiendas">Nuestras Tiendas</h1>
+          <p class="lead text-muted">Descubre todos los rincones donde la lectura cobra vida. ¡Visítanos y vive la experiencia Books Store!</p>
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <?php 
+          include ("php/getTiendas.php");
+          $libreria = new DBGestionLibreria($conexion);
+          $tiendas = $libreria->getTiendas();
+          foreach ($tiendas as $registro) {
+            echo '<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow tienda-card h-100">
+                      <div class="card-body d-flex flex-column justify-content-between">
+                        <div class="mb-3 text-center">
+                          <i class="fa fa-store fa-2x text-primary mb-2"></i>
+                          <h5 class="card-title fw-bold">'.htmlspecialchars($registro['nombre_tienda']).'</h5>
+                        </div>
+                        <ul class="list-unstyled mb-0 text-center">
+                          <li><i class="fa fa-map-marker-alt text-danger"></i> '.htmlspecialchars($registro['ciudad']).', '.htmlspecialchars($registro['pais']).'</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>';
+          }
+        ?>
+      </div>
+    </div>
+  </section>
 
-<!-- Tiendas Section -->
-<section id="tiendas-section" class="py-5">
-  <div class="container">
-    <div id="tiendas-container" class="row" style="background-attachment: fixed; width: 100%;
-height: auto; background-repeat: no-repeat;background-position: center"></div>
-    <h2>¡Visita nuestras tiendas!</h2><br/>
+  <?php include("php/Footer.php"); ?>
 
-    <p class="lead mb-5"></p>
-    <?php 
-     include ("php/getTiendas.php");
-       $libreria = new DBGestionLibreria($conexion);
-       $tiendas = $libreria->getTiendas();
-       //var_dump($tiendas);
-       foreach  ($tiendas as $registro){ 
-        //print_r($registro);
-        print('<p>'.$registro['nombre_tienda'].', '.$registro['ciudad'].', '.$registro['pais'].'</p>');
-       }?>
-  </div>
-</section>
-<!-- /Autores Section -->
-
-    <!-- Footer -->
-    <?php include("php/Footer.php") ?>
-
-  
-<!-- jQuery Plugins -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/nouislider.min.js"></script>
-<script src="js/jquery.zoom.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/autores.js"></script>
-
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 

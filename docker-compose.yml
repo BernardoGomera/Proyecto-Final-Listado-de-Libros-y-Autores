@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8
+    container_name: mysql-libreria
+    restart: always
+    environment:
+      MYSQL_DATABASE: dblibreria
+      MYSQL_USER: libreria
+      MYSQL_PASSWORD: lib2025
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./Base Datos Libreria.sql:/docker-entrypoint-initdb.d/init.sql
+  php:
+    image: php:8.3-apache
+    container_name: php-libreria
+    depends_on:
+      - db
+    ports:
+      - "8080:80"
+    volumes:
+      - ./miLibreria:/var/www/html
+volumes:
+  db_data:
+    driver: local

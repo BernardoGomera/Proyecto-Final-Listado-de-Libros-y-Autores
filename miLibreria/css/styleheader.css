@@ -1,7 +1,63 @@
 /* Cambiar el color del texto de la marca del navbar */
+
 .navbar-brand,
 .navbar-brand:hover {
-    color: #cef2ff; /
+    color: #f8b500 !important;
+    font-weight: bold;
+    font-size: 1.35rem;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 8px rgba(99,102,241,0.18);
+}
+
+.navbar {
+    box-shadow: 0 4px 24px rgba(99,102,241,0.10);
+    border-bottom: 2px solid #f8b500;
+}
+
+.navbar-nav .nav-link {
+    color: #6366f1 !important;
+    font-weight: 600;
+    font-size: 1.08rem;
+    transition: color 0.2s, background 0.2s;
+    border-radius: 0.5rem;
+    margin: 0 0.2rem;
+    padding: 0.5rem 1rem;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #fff !important;
+    background: #f8b500;
+    box-shadow: 0 2px 8px rgba(99,102,241,0.10);
+}
+
+.dropdown-menu {
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px rgba(99,102,241,0.18);
+    background: #fff;
+}
+.dropdown-item {
+    color: #6366f1 !important;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+}
+.dropdown-item:hover {
+    background: #f8b500;
+    color: #fff !important;
+}
+
+.btn-primary {
+    background-color: #f8b500 !important;
+    border-color: #6366f1 !important;
+    color: #fff !important;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(99,102,241,0.10);
+    border-radius: 0.5rem;
+    transition: background 0.2s, border 0.2s;
+}
+.btn-primary:hover {
+    background-color: #6366f1 !important;
+    border-color: #f8b500 !important;
+    color: #fff !important;
 }
 
 /* Cambiar el color del fondo del navbar */
@@ -15,7 +71,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #70a4d9; /* Negro */
+    background: url('assets/img/fondoBliblioteca.jpg') center center/cover no-repeat, #70a4d9;
 }
 
 /* Cambiar el color del texto de los enlaces de navegación */
@@ -40,22 +96,31 @@
 }
 
 /* Estilos para la cita hero (diseño C: overlay compacto) */
+/* Mejorar visibilidad y posición de la cita en el carrusel */
+/* Cita siempre abajo, sin opacidad ni fondo */
 .hero-quote {
     position: absolute;
-    inset: 0;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
-    padding: 1rem;
-    pointer-events: none; /* evita interferir con controles del carrusel */
+    justify-content: center;
+    padding: 0.5rem 1rem 0 1rem;
+    pointer-events: none;
     z-index: 5;
+}
+.hero-quote .quote-wrapper {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
 }
 .hero-quote .quote-wrapper{
     display: inline-block;
     max-width: 1000px;
     padding: 0.3rem 0.6rem;
     text-align: center;
-    background: transparent; /* transparencia total para mostrar la imagen */
     border-radius: 6px;
     pointer-events: auto;
 }
@@ -69,6 +134,18 @@
     text-shadow: 0 3px 10px rgba(0,0,0,0.7); /* sombra para legibilidad */
 }
 .hero-quote .quote-wrapper{box-shadow: 0 8px 20px rgba(0,0,0,0.18);border:1px solid rgba(255,255,255,0.03)}
+/* Eliminar fondo y opacidad, solo sombra para legibilidad */
+.hero-quote .quote-wrapper{
+    display: inline-block;
+    max-width: 1000px;
+    padding: 0.3rem 0.6rem;
+    text-align: center;
+    background: none;
+    border-radius: 6px;
+    pointer-events: auto;
+    box-shadow: none;
+    border: none;
+}
 .hero-quote .author{
     margin-top: 0.45rem;
     color: #f1f1f1;
